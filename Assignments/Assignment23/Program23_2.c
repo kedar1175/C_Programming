@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void strlwrx(char *str)
+void struprx(char *str)
 {
     int i = 0;
 
@@ -22,7 +22,7 @@ int main()
     printf("Enter a String : \n");
     scanf("%[^'\n']s",arr);
 
-    strlwrx(arr);
+    struprx(arr);
 
     printf("Modified string is %s : ",arr);
 
