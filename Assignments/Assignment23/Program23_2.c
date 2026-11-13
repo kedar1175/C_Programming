@@ -24,7 +24,7 @@ int main()
 
     struprx(arr);
 
-    printf("Modified string is %s : ",arr);
+    printf("Modified string is : %s",arr);
 
     return EXIT_SUCCESS;
 }
