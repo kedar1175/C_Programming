@@ -28,7 +28,7 @@ int main()
 
     strtogglex(arr);
 
-    printf("Modified string is %s : ",arr);
+    printf("Modified string is : %s",arr);
 
     return EXIT_SUCCESS;
 }
