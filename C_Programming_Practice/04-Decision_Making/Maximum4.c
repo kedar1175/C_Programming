@@ -1,6 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+//////////////////////////////////////////////
+//
+// Function Name :  Maximum
+// Input         :  Integer,Integer,Integer
+// Output        :  Integer
+// Description   :  Find Maximum of three numbers
+// Author        :  Kedar Sanjay Joshi
+//
+//////////////////////////////////////////////
+
 int Maximum(int iNo1, int iNo2, int iNo3)
 {
     if((iNo1 >= iNo2) && (iNo1 >= iNo3))
