@@ -1,6 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+//////////////////////////////////////////////
+//
+// Function Name :  Minimum
+// Input         :  Integer,Integer,Integer,Integer
+// Output        :  Integer
+// Description   :  Find Minimum of Four Numbers
+// Author        :  Kedar Sanjay Joshi
+//
+///////////////////////////////////////////////
+
 int Minimum(int iNo1, int iNo2, int iNo3, int iNo4)
 {
     if((iNo1 <= iNo2) && (iNo1 <= iNo3) && (iNo1 <= iNo4))
@@ -42,4 +52,4 @@ int main()
     printf("Minimum number is : %d\n", iResult);
     
     return EXIT_SUCCESS;
-}//check code
+}
