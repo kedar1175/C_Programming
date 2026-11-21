@@ -15,7 +15,7 @@
 //
 ///////////////////////////////////////////////
     
-int Summation(int iNo)
+int Factorial(int iNo)
 {
      int iCnt = 0;
      int iSum = 0;
@@ -38,9 +38,9 @@ int main()
     printf("Enter the frequency :\n");
     scanf("%d",&iValue);
 
-    iRet = Summation(iValue);
+    iRet = Factorial(iValue);
 
-    printf("Summation is : %d\n",iRet);
+    printf("Factorial is : %d\n",iRet);
 
     return EXIT_SUCCESS;
 }
