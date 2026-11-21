@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+//////////////////////////////////////////////
+//
+// Function Name :  Display
+// Input         :  Integer
+// Output        :  Nothing
+// Description   :  Displays numbers from 1 to
+//                  the given number
+// Author        :  Kedar Sanjay Joshi
+//
+///////////////////////////////////////////////
+
+void Display(int iNo)
+{
+    int iCnt = 0;
+
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
+    {
+        printf("%d\n",iCnt);
+    }
+}
+
+int main()
+{
+    int iValue = 0;
+
+    printf("Enter number : \n");
+    scanf("%d",&iValue);
+
+    Display(iValue);
+  
+    return EXIT_SUCCESS;
+}
