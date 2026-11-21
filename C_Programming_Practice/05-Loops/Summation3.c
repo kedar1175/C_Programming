@@ -3,6 +3,17 @@
 
 #include<stdio.h>
 #include<stdlib.h>
+
+//////////////////////////////////////////////
+//
+// Function Name :  Summation
+// Input         :  Integer
+// Output        :  Integer
+// Description   :  Calculates the product of numbers
+//                  from 1 to the given number
+// Author        :  Kedar Sanjay Joshi
+//
+///////////////////////////////////////////////
     
 int Summation(int iNo)
 {
