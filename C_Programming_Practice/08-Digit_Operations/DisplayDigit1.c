@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+//////////////////////////////////////////////
+//
+// Function Name :  DisplayDigits
+// Input         :  Integer
+// Output        :  void
+// Description   :  Displays Each Digit of a Number
+// Author        :  Kedar Sanjay Joshi
+//
+///////////////////////////////////////////////
+
+void DisplayDigits(int iNo)
+{
+    int iDigit = 0;
+
+    while(iNo != 0)
+    {
+        iDigit = iNo % 10;
+        printf("%d\n",iDigit);
+        iNo = iNo / 10;
+    }
+}
+
+int main()
+{
+    int iValue = 0;
+
+    printf("Enter a number : \n");
+    scanf("%d",&iValue);
+
+    DisplayDigits(iValue);
+
+    return EXIT_SUCCESS;
+}
